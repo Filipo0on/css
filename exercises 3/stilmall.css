@@ -1,0 +1,21 @@
+
+
+
+article:first-child:first-line
+
+{
+
+    color: #06ff03;
+    content: url(dub3.jpg);
+
+
+
+}
+
+article:before
+
+{
+    content: url(dub3.jpg);
+
+
+}
