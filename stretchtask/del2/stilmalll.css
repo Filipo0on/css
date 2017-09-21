@@ -1,0 +1,46 @@
+header {
+
+
+    background-color: #c73d7f;
+    height: 40px;
+
+}
+
+nav {
+
+
+    background-color: #81c73b;
+
+    height: 45px;
+
+}
+
+
+main {
+
+
+    background-color: rebeccapurple;
+    width: 60%;
+    height: 400px;
+    float: left;
+
+
+}
+
+aside {
+
+    background-color: #7ad5ff;
+    height: 400px;
+    width: 40%;
+    float: right;
+
+
+}
+
+
+footer  {
+
+
+    background-color: #f15b2a;
+   padding-bottom: 10px;
+}
