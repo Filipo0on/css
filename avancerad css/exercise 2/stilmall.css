@@ -32,7 +32,7 @@ header {
 
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
@@ -47,7 +47,7 @@ header {
 .nav {
     box-sizing: border-box;
     flex-basis:  10%;
-    margin: auto;
+   
 
 }
 
