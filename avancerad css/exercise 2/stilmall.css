@@ -1,7 +1,7 @@
 header {
 
 
-    background-color: #f70817;
+    background-color: #fff7c7;
 
     height: 80px;
     width: 100%;
@@ -18,22 +18,34 @@ header {
 .navbox {
 
     margin-top: 10px;
-    background-color: #f70817;
-    height: 35px;
-    width: 100%;
-
-
 
 
 }
+
+
 
 @media (min-width: 900px) {
 .navbox {
-
-
     display: flex;
     justify-content: center;
-}
+    background-color: #e6e9e1;
+
+
+        }
+.nav {
+
+
+    border-right: 1px solid black;
+
+
+     }
+
+
+.nav:first-child {
+
+
+       border-left: 1px solid black;
+                 }
 
 
 
@@ -42,39 +54,29 @@ header {
 
 
 
+
+@media (max-width: 899px) {
+
+
+    .nav {
+
+        border: 1px solid black;
+
+    }
+
+
+
+}
 
 
 .nav {
     box-sizing: border-box;
     flex-basis:  10%;
-   
-
-}
-
-
+    text-align: center;
+    padding: 1px;
+    background-color: #e6e9e1;
 
 
-.nav:nth-child(1) {
-    background-color: #06ff03;
-
-}
-.nav:nth-child(2) {
-
-background-color: #4e7dff;
-}
-
-.nav:nth-child(3) {
-
-background-color: #81c73b;
-}
-.nav:nth-child(4) {
-
-background-color: #c73d7f;
-}
-
-.nav:nth-child(5) {
-
-background-color: yellow;
 }
 
 
